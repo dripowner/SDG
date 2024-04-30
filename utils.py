@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 def plot_clusters(dataframe, x_column, y_column, cluster_column):
     # Create a new figure
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(20, 12))
 
     # Loop through each unique cluster label
     for cluster_label in dataframe[cluster_column].unique():
